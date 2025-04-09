@@ -1,0 +1,14 @@
+﻿@model Test2.Models.User
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">User Details</h3>
+        </div>
+        <div class="card-body">
+            <p class="mb-2"><strong>Name:</strong> @Model.Name</p>
+            <p class="mb-2"><strong>Date of Birth:</strong> @Model.DateOfBirth.ToShortDateString()</p>
+            <p class="mb-0"><strong>Address:</strong> @Model.Address</p>
+        </div>
+    </div>
+</div>
